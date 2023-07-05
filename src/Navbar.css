@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 55px;
+    background-color: #F55A5A;
+}
+
+.nav--img, .nav--title {
+    flex: 0 0 auto
+}
+
+.nav--img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav--title {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
