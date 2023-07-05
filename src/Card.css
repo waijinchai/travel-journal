@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    width: 470px;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--country {
+    display: flex;
+}
+
+.location {
+    margin-left: 4px;
+    color: #2B283A;
+    font-size: 10px;
+    letter-spacing: .2rem;
+}
+
+.map:link, .map:visited {
+    color: #918E9B;
+    font-size: 10px;
+    margin-left: 12px;
+}
+
+.card--title {
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.card--date {
+    margin-top: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.card--desc {
+    color: #2B283A;
+    font-size: 10px;
+    margin-top: 9px;
+}
+
+hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-top: 1px solid #F5F5F5;
+}
